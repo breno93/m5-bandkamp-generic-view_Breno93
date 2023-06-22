@@ -15,6 +15,7 @@ from pathlib import Path
 from datetime import timedelta
 import os
 import dotenv
+import dj_database_url
 
 dotenv.load_dotenv()
 
