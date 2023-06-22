@@ -1,7 +1,7 @@
 from rest_framework.test import APITestCase
 from rest_framework.views import status
 from tests.factories import create_user_with_token, create_multiple_albums_with_user
-import ipdb
+# import ipdb
 
 
 class AlbumViewTest(APITestCase):

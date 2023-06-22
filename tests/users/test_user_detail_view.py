@@ -219,7 +219,7 @@ class UserDetailViewsTest(APITestCase):
             f"Verifique se a senha está sendo atualizada no {response.request['REQUEST_METHOD']} em "
             + f"em `{self.BASE_URL}`"
         )
-        import ipdb
+        # import ipdb
 
         # ipdb.set_trace()
         self.assertTrue(user.check_password(info_to_patch["password"]), msg)
